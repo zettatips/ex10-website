@@ -62,8 +62,8 @@ const Home = ({ message, data }) => {
         <Layout
             tajuk="ex10 - Kelab Bola Tampar"
             huraian="Kami kawan, kami keluarga. Bermain bola tampar sejak 2008!"
-            gambar="https://ex10.ml/jombuatmeta.png"
-            pautan="https://ex10.ml"
+            gambar="https://ex10.vercel.app/ex10meta.png"
+            pautan="https://ex10.vercel.app"
         >
             <section className={stail.body}>
                 <Banner />
