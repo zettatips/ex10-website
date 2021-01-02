@@ -18,7 +18,6 @@ const tapisData = (dataArray, searchParam) => {
 };
 
 export const getStaticProps = async () => {
-    //const komuniti = await fetch(`https://v1.nocodeapi.com/alserembani/google_sheets/XQsvzGyRcILpJBNG?tabId=komuniti`).then(res => res.json());
 
     const ahli = await fetch(`https://v1.nocodeapi.com/zettatips/google_sheets/awebfYtxHfzPhHYW?tabId=ahli`).then(res => res.json());
 
