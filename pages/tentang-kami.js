@@ -11,7 +11,7 @@ import SertaiBuletin from '../components/sertaiBuletin'
 
 export const getStaticProps = async() => {
     const pageData = await getPostData('tentang_kami');
-    const testimoni = await fetch(`https://v1.nocodeapi.com/alserembani/google_sheets/XQsvzGyRcILpJBNG?tabId=testimoni`).then(res => res.json());
+    //const testimoni = await fetch(`#`).then(res => res.json());
     return {
         props: {
             pageData,
