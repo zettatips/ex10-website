@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export && mv out public"
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
