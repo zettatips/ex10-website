@@ -15,6 +15,9 @@
 # production
 /build
 
+# App platform
+_static
+
 # misc
 .DS_Store
 *.pem
