@@ -12,3 +12,6 @@ Join our chat at Telegram https://t.me/zettatips
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/zettatipst/ex10-website/tree/master)
