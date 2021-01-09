@@ -5,16 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "npm run build && next start && mv out _static"
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "export": "npm run build && next export && mv out _static"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "algoliasearch": "^4.8.2",
     "autoprefixer": "^10.0.4",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.3",
+    "next-optimized-images": "^2.6.2",
     "next-pwa": "^3.1.5",
     "postcss-preset-env": "^6.7.0",
     "react": "^17.0.1",
