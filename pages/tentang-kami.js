@@ -11,16 +11,15 @@ import SertaiBuletin from '../components/sertaiBuletin'
 
 export const getStaticProps = async() => {
     const pageData = await getPostData('tentang_kami');
-    const testimoni = await fetch(`#`).then(res => res.json());
+    
     return {
         props: {
-            pageData,
-            testimoni: testimoni.data
+            pageData
         }
     }
 }
 
-const TentangKami = ({ pageData, testimoni }) => {
+const TentangKami = ({ pageData}) => {
     const dikuasakan = () => {
         const gambar = [];
         const pautan = [];
@@ -39,8 +38,8 @@ const TentangKami = ({ pageData, testimoni }) => {
         <Layout
             tajuk="ex10vc - Tentang Kami"
             huraian="Di sebalik kejayaan web ini, berdirinya satu komuniti di yang terdiri daripada bekas pemain bola tampar UNITEN"
-            gambar="https://ex10.vercel.app/ex10meta.png"
-            pautan="https://ex10.vercel.app"
+            gambar="https://ex10.club/ex10meta.png"
+            pautan="https://ex10.club"
         >
             <Banner />
             <div className={stail.page_container}>
