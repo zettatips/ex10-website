@@ -4,8 +4,8 @@ import { Chrono } from "react-chrono";
 const KadPencapaian = () => {
   const items = [
     {
-    title: "March 2020",
-    cardTitle: "CSVT Amatuer",
+    title: "Mac 2020",
+    cardTitle: "CSVT Amatur",
     cardSubtitle:"Lokasi: PERSADA PLUS, Kedudukan: Tempat Ketiga",
     media: {
       type: "IMAGE",
@@ -15,7 +15,7 @@ const KadPencapaian = () => {
     }
   },
   {
-    title: "December 2019",
+    title: "Disember 2019",
     cardTitle: "Gedik Santai",
     cardSubtitle:"Lokasi: UNITEN Sports Arena, Kedudukan: Tempat Ketiga",
     media: {
