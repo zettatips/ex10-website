@@ -2,13 +2,13 @@
 
 This website is made for ex10 Volleyball Club. 
 
-For more info visit our website https://ex10.vercel.app
+For more info visit our website https://ex10.club / https://ex-10-website-web-service-mccpi.ondigitalocean.app/ 
 
 Join our chat at Telegram https://t.me/zettatips
 
 ## Tech Stack
 - Web: Next.js
-- Hosted in: Vercel
+- Hosted in: DigitalOcean's App Platform 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
