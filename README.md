@@ -2,12 +2,13 @@
 
 This website is made for ex10 Volleyball Club. 
 
-For more info visit our website https://ex10.club / https://ex-10-website-web-service-mccpi.ondigitalocean.app/ 
+For more info visit our website: https://ex10.club 
 
-Join our chat at Telegram https://t.me/zettatips
+Join our Telegram Channel: https://t.me/zettatipschannel
 
 ## Tech Stack
 - Web: Next.js
+- API: NoCodeApi
 - Hosted in: DigitalOcean's App Platform 
 
 ## License
