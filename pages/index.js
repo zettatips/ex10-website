@@ -64,7 +64,7 @@ const Home = ({ message, data }) => {
         <Layout
             tajuk="ex10 - Kelab Bola Tampar"
             huraian="Kami kawan, kami keluarga. Bermain bola tampar sejak 2008!"
-            gambar="https://ex10.club/ex10meta.png"
+            gambar="https://ex10.club/ex10meta.PNG"
             pautan="https://ex10.club"
         >
             <section className={stail.body}>
