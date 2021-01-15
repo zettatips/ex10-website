@@ -38,7 +38,7 @@ const TentangKami = ({ pageData}) => {
         <Layout
             tajuk="ex10vc - Tentang Kami"
             huraian="Di sebalik kejayaan web ini, berdirinya satu komuniti di yang terdiri daripada bekas pemain bola tampar UNITEN"
-            gambar="https://ex10.club/ex10meta.png"
+            gambar="https://ex10.club/ex10meta.PNG"
             pautan="https://ex10.club"
         >
             <Banner />
