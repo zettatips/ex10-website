@@ -111,7 +111,7 @@ const Home = ({ message, data }) => {
 
                 {/* Penghasilan Komponen Kad Pencapaian */}
                 {
-                    ((kategori === 'semua' || kategori === 'pencapaian')) && (
+                    ((kategori === 'semua' || kategori === 'pencapaian') && komunitiTertapis.length !== 0) && (
                         <>
                             <div className={stail.tajukBahagian}>
                                 <div className={`${stail.tajukBahagian_pengasing} ${stail.tajukBahagian_pengasing_pendek}`} />
