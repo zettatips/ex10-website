@@ -78,15 +78,21 @@ const Home = ({ message, data }) => {
                             ))
                         }
                     </ul>
-                    <input
-                        id="carian"
-                        className={stail.search}
-                        type="text"
-                        value={carian}
-                        onChange={({ currentTarget: { value } }) => setCarian(() => value)}
-                        placeholder="Cari Ahli"
-                    />
-                    <label htmlFor="carian">Carian</label>
+                {            
+                    ((kategori === 'semua' || kategori === 'ahli') && komunitiTertapis.length !== 0) && (
+                    <>    
+                        <input
+                            id="carian"
+                            className={stail.search}
+                            type="text"
+                            value={carian}
+                            onChange={({ currentTarget: { value } }) => setCarian(() => value)}
+                            placeholder="Cari Ahli"
+                        />
+                        <label htmlFor="carian">Carian</label>
+                    </>
+                    )
+                }        
                 </div>
 
                 {/* Penghasilan Komponen Kad Ahli */}
@@ -105,7 +111,7 @@ const Home = ({ message, data }) => {
 
                 {/* Penghasilan Komponen Kad Pencapaian */}
                 {
-                    ((kategori === 'semua' || kategori === 'pencapaian') && komunitiTertapis.length !== 0) && (
+                    ((kategori === 'semua' || kategori === 'pencapaian')) && (
                         <>
                             <div className={stail.tajukBahagian}>
                                 <div className={`${stail.tajukBahagian_pengasing} ${stail.tajukBahagian_pengasing_pendek}`} />
