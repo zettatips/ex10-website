@@ -2,7 +2,7 @@
 
 This website is made for ex10 Volleyball Club. 
 
-For more info visit our website: https://ex10.club 
+For more info visit our website: https://ex10.vercel.app/
 
 Join our Telegram Channel: https://t.me/zettatipschannel
 
