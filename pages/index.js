@@ -79,7 +79,7 @@ const Home = ({ message, data }) => {
                         }
                     </ul>
                 {            
-                    ((kategori === 'semua' || kategori === 'ahli')) && (
+                    ((kategori === 'semua' || kategori === 'ahli') && komunitiTertapis.length !== 0) && (
                     <>    
                         <input
                             id="carian"
