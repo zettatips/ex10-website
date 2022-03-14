@@ -20,8 +20,8 @@ const tapisData = (dataArray, searchParam) => {
 
 export const getStaticProps = async () => {
 
-    const ahli = await fetch(`https://v1.nocodeapi.com/zettatips/google_sheets/awebfYtxHfzPhHYW?tabId=ahli`).then(res => res.json());
-    const pencapaian = await fetch(`https://v1.nocodeapi.com/zettatips/google_sheets/awebfYtxHfzPhHYW?tabId=pencapaian`).then(res => res.json());
+    const ahli = await fetch(`https://v1.nocodeapi.com/zettatips/google_sheets/JiSuiZkLxJXoSuZP?tabId=ahli`).then(res => res.json());
+    const pencapaian = await fetch(`https://v1.nocodeapi.com/zettatips/google_sheets/JiSuiZkLxJXoSuZP?tabId=pencapaian`).then(res => res.json());
 
 
     return {
@@ -79,7 +79,7 @@ const Home = ({ message, data }) => {
                         }
                     </ul>
                 {            
-                    ((kategori === 'semua' || kategori === 'ahli') && komunitiTertapis.length !== 0) && (
+                    ((kategori === 'semua' || kategori === 'ahli')) && (
                     <>    
                         <input
                             id="carian"
