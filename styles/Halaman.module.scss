@@ -46,7 +46,7 @@
   justify-content: center;
   background: #333;
   z-index: 10;
-  top: 0px;
+  top: 0;
   color: white;
   height: 100px;
 
@@ -77,7 +77,7 @@
 
     button {
       position: absolute;
-      right: 0px;
+      right: 0;
       top: 8px;
       padding: 5px;
       width: 40px;
@@ -118,9 +118,9 @@
           color: black;
           border-top: 1px solid #00000019;
           width: 100%;
-          border-radius: 0px;
-          margin: 0px;
-          padding: 15px 0px;
+          border-radius: 0;
+          margin: 0;
+          padding: 15px 0;
         }
       }
     }
@@ -281,7 +281,7 @@
   }
 
   h3 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
     font-size: 1.5rem;
   }
 
@@ -314,7 +314,7 @@
   box-shadow: 1px 1px 8px #00000034;
   transition: all 0.3s ease-in-out;
   width: clamp(280px, 80%, 75ch);
-  margin: 0px 20px 3rem;
+  margin: 0 20px 3rem;
   text-align: center;
 
   &:focus {
@@ -342,7 +342,7 @@
       padding: 10px 30px;
       text-transform: capitalize;
       border-radius: 10px;
-      margin: 0px 10px;
+      margin: 0 10px;
       font-weight: 700;
       cursor: pointer;
       transition: all 0.3s ease-in-out;
@@ -370,7 +370,7 @@
   max-width: 1200px;
   width: 100%;
   display: flex;
-  padding: 0px 20px;
+  padding: 0 20px;
   overflow: auto;
   flex-flow: column nowrap;
 
@@ -395,7 +395,7 @@
       @media (max-width: 500px) {
         flex-flow: column wrap;
         p {
-          margin-right: 0px;
+          margin-right: 0;
         }
       }
     }
@@ -410,7 +410,7 @@
     @media (max-width: 500px) {
       flex-flow: column wrap;
       padding: 10px;
-      box-shadow: 0px 0px 10px #00000011;
+      box-shadow: 0 0 10px #00000011;
       align-items: stretch;
       border-radius: 10px;
       p {
@@ -424,7 +424,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px #00000012;
+    box-shadow: 0 0 20px #00000012;
     margin-right: 20px;
     overflow: hidden;
 
@@ -436,7 +436,7 @@
     @media (max-width: 500px) {
       width: 50px;
       height: 50px;
-      margin-right: 0px;
+      margin-right: 0;
     }
   }
   
@@ -495,10 +495,10 @@
   flex-flow: row wrap;
   align-items: center;
   width: var(--page-width-limiter);
-  padding: 20px 20px;
-  margin: 10px 0px;
+  padding: 20px;
+  margin: 10px 0;
   p {
-    padding: 0px 15px;
+    padding: 0 15px;
     font-size: 1.5rem;
     font-weight: 700;
     background: linear-gradient(90deg, #4A8EED 0%, #73CCC5 100%);
@@ -528,7 +528,7 @@
 }
 
 .cta > ul > li {
-  margin: 0px 5px;
+  margin: 0 5px;
 }
 
 .page {
@@ -539,13 +539,13 @@
 
   &-container {
     width: var(--page-width-limiter);
-    margin: 0px 20px;
+    margin: 0 20px;
   }
 }
 
 @keyframes cardAppear {
   0% { opacity: 0%; top: -10px; }
-  100% { opacity: 100%; top: 0px; }
+  100% { opacity: 100%; top: 0; }
 }
 
 @keyframes gradientWipe {
