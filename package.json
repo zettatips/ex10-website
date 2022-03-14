@@ -12,7 +12,7 @@
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "algoliasearch": "^4.8.2",
     "autoprefixer": "^10.0.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "gray-matter": "^4.0.2",
     "next": "^10.0.3",
     "next-optimized-images": "^2.6.2",
@@ -24,7 +24,7 @@
     "react-icons": "^4.1.0",
     "react-instantsearch-dom": "^6.8.2",
     "remark": "^13.0.0",
-    "remark-html": "^13.0.1",
+    "remark-html": "^13.0.2",
     "sass": "^1.29.0",
     "tailwindcss": "^2.0.1"
   }
